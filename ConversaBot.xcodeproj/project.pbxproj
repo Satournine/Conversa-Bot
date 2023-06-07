@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE585AD22A30DDDC001240D3 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE585AD12A30DDDC001240D3 /* MessageView.swift */; };
+		CEFA478E2A2CD7AD0024DFBA /* ConversaBotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA478D2A2CD7AD0024DFBA /* ConversaBotApp.swift */; };
+		CEFA47902A2CD7AE0024DFBA /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA478F2A2CD7AE0024DFBA /* ChatView.swift */; };
+		CEFA47922A2CD7AE0024DFBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFA47912A2CD7AE0024DFBA /* Assets.xcassets */; };
+		CEFA47952A2CD7AE0024DFBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFA47942A2CD7AE0024DFBA /* Preview Assets.xcassets */; };
+		CEFA479E2A2CD9FD0024DFBA /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA479D2A2CD9FD0024DFBA /* ChatViewModel.swift */; };
+		CEFA47A02A2CDAD10024DFBA /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA479F2A2CDAD10024DFBA /* OpenAIService.swift */; };
+		CEFA47A32A2CDAF60024DFBA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CEFA47A22A2CDAF60024DFBA /* Alamofire */; };
+		CEFA47A52A2CDCEC0024DFBA /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFA47A42A2CDCEC0024DFBA /* Keys.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE585AD12A30DDDC001240D3 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		CEFA478A2A2CD7AD0024DFBA /* ConversaBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConversaBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFA478D2A2CD7AD0024DFBA /* ConversaBotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversaBotApp.swift; sourceTree = "<group>"; };
+		CEFA478F2A2CD7AE0024DFBA /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		CEFA47912A2CD7AE0024DFBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEFA47942A2CD7AE0024DFBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEFA479D2A2CD9FD0024DFBA /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		CEFA479F2A2CDAD10024DFBA /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+		CEFA47A42A2CDCEC0024DFBA /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFA47872A2CD7AD0024DFBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFA47A32A2CDAF60024DFBA /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFA47812A2CD7AD0024DFBA = {
+			isa = PBXGroup;
+			children = (
+				CEFA478C2A2CD7AD0024DFBA /* ConversaBot */,
+				CEFA478B2A2CD7AD0024DFBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFA478B2A2CD7AD0024DFBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA478A2A2CD7AD0024DFBA /* ConversaBot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFA478C2A2CD7AD0024DFBA /* ConversaBot */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA478D2A2CD7AD0024DFBA /* ConversaBotApp.swift */,
+				CEFA478F2A2CD7AE0024DFBA /* ChatView.swift */,
+				CEFA479D2A2CD9FD0024DFBA /* ChatViewModel.swift */,
+				CE585AD12A30DDDC001240D3 /* MessageView.swift */,
+				CEFA479F2A2CDAD10024DFBA /* OpenAIService.swift */,
+				CEFA47A42A2CDCEC0024DFBA /* Keys.swift */,
+				CEFA47912A2CD7AE0024DFBA /* Assets.xcassets */,
+				CEFA47932A2CD7AE0024DFBA /* Preview Content */,
+			);
+			path = ConversaBot;
+			sourceTree = "<group>";
+		};
+		CEFA47932A2CD7AE0024DFBA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA47942A2CD7AE0024DFBA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFA47892A2CD7AD0024DFBA /* ConversaBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFA47982A2CD7AE0024DFBA /* Build configuration list for PBXNativeTarget "ConversaBot" */;
+			buildPhases = (
+				CEFA47862A2CD7AD0024DFBA /* Sources */,
+				CEFA47872A2CD7AD0024DFBA /* Frameworks */,
+				CEFA47882A2CD7AD0024DFBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConversaBot;
+			packageProductDependencies = (
+				CEFA47A22A2CDAF60024DFBA /* Alamofire */,
+			);
+			productName = ConversaBot;
+			productReference = CEFA478A2A2CD7AD0024DFBA /* ConversaBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFA47822A2CD7AD0024DFBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CEFA47892A2CD7AD0024DFBA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CEFA47852A2CD7AD0024DFBA /* Build configuration list for PBXProject "ConversaBot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEFA47812A2CD7AD0024DFBA;
+			packageReferences = (
+				CEFA47A12A2CDAF60024DFBA /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = CEFA478B2A2CD7AD0024DFBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFA47892A2CD7AD0024DFBA /* ConversaBot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFA47882A2CD7AD0024DFBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFA47952A2CD7AE0024DFBA /* Preview Assets.xcassets in Resources */,
+				CEFA47922A2CD7AE0024DFBA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFA47862A2CD7AD0024DFBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE585AD22A30DDDC001240D3 /* MessageView.swift in Sources */,
+				CEFA47902A2CD7AE0024DFBA /* ChatView.swift in Sources */,
+				CEFA479E2A2CD9FD0024DFBA /* ChatViewModel.swift in Sources */,
+				CEFA478E2A2CD7AD0024DFBA /* ConversaBotApp.swift in Sources */,
+				CEFA47A02A2CDAD10024DFBA /* OpenAIService.swift in Sources */,
+				CEFA47A52A2CDCEC0024DFBA /* Keys.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEFA47962A2CD7AE0024DFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEFA47972A2CD7AE0024DFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFA47992A2CD7AE0024DFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ConversaBot/Preview Content\"";
+				DEVELOPMENT_TEAM = TDMFSWV2Q6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tunaorkun.ConversaBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEFA479A2A2CD7AE0024DFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ConversaBot/Preview Content\"";
+				DEVELOPMENT_TEAM = TDMFSWV2Q6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tunaorkun.ConversaBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFA47852A2CD7AD0024DFBA /* Build configuration list for PBXProject "ConversaBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFA47962A2CD7AE0024DFBA /* Debug */,
+				CEFA47972A2CD7AE0024DFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFA47982A2CD7AE0024DFBA /* Build configuration list for PBXNativeTarget "ConversaBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFA47992A2CD7AE0024DFBA /* Debug */,
+				CEFA479A2A2CD7AE0024DFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEFA47A12A2CDAF60024DFBA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEFA47A22A2CDAF60024DFBA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEFA47A12A2CDAF60024DFBA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CEFA47822A2CD7AD0024DFBA /* Project object */;
+}
